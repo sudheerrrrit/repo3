@@ -16,6 +16,8 @@ public:
             if(CheckPrime(nums[i][i])){
                 maxi = max(maxi , nums[i][i]);
             }
+
+            
             if(CheckPrime(nums[i][n - i - 1])){
                 maxi = max(maxi , nums[i][n - i -1]);
             }
