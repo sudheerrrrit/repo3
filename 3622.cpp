@@ -17,6 +17,8 @@ public:
         long long s = sum + prod;
         if (s == 0) return false; 
 
+
+        
         return (n % s) == 0; 
     }
 };
