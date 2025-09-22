@@ -17,7 +17,7 @@ class Solution {
         }
         vector<int> ans(n + 1, 0);
         for (int i = 0; i < n; i++) {
-            int len = right[i] - left[i] - 1;   // window size where arr[i] is min
+            int len = right[i] - left[i] - 1;   
             ans[len] = max(ans[len], arr[i]);
         }
         for (int i = n - 1; i >= 1; i--) {
