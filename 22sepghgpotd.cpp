@@ -10,8 +10,6 @@ class Solution {
             st.push(i);
         }
         while (!st.empty()) st.pop();
-
-        // Next Smaller Element (NSE)
         for (int i = n - 1; i >= 0; i--) {
             while (!st.empty() && arr[st.top()] >= arr[i]) st.pop();
             right[i] = st.empty() ? n : st.top();
