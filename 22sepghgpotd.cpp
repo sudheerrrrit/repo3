@@ -4,8 +4,6 @@ class Solution {
           int n = arr.size();
         vector<int> left(n), right(n);
         stack<int> st;
-
-        // Previous Smaller Element (PSE)
         for (int i = 0; i < n; i++) {
             while (!st.empty() && arr[st.top()] >= arr[i]) st.pop();
             left[i] = st.empty() ? -1 : st.top();
