@@ -9,8 +9,6 @@ class Solution {
             left[i] = st.empty() ? -1 : st.top();
             st.push(i);
         }
-
-        // Clear stack
         while (!st.empty()) st.pop();
 
         // Next Smaller Element (NSE)
