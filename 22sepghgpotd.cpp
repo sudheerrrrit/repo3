@@ -15,8 +15,6 @@ class Solution {
             right[i] = st.empty() ? n : st.top();
             st.push(i);
         }
-
-        // Result array (1-based indexing for window size)
         vector<int> ans(n + 1, 0);
 
         // For each element, find its window length and update answer
