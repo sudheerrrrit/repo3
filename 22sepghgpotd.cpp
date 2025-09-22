@@ -16,8 +16,6 @@ class Solution {
             st.push(i);
         }
         vector<int> ans(n + 1, 0);
-
-        // For each element, find its window length and update answer
         for (int i = 0; i < n; i++) {
             int len = right[i] - left[i] - 1;   // window size where arr[i] is min
             ans[len] = max(ans[len], arr[i]);
