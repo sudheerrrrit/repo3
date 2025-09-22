@@ -22,8 +22,6 @@ class Solution {
             int len = right[i] - left[i] - 1;   // window size where arr[i] is min
             ans[len] = max(ans[len], arr[i]);
         }
-
-        // Fill missing values by propagating from right to left
         for (int i = n - 1; i >= 1; i--) {
             ans[i] = max(ans[i], ans[i + 1]);
         }
