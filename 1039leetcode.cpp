@@ -12,6 +12,7 @@ public:
                     if (score < dp[i][j]) dp[i][j] = score;
                 }
             }
+            
         }
         return dp[0][n - 1];
     }
