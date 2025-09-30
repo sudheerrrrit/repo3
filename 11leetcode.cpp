@@ -9,6 +9,7 @@ public:
         int area = 0 ;
         int newarea= 0;
         while(left < right){
+
           int b = right - left ; 
 
           int l = min(height[left], height[right]);
