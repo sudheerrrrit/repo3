@@ -11,6 +11,7 @@ public:
           int l = min(height[left], height[right]);
            newarea = l* b;
           area = max(area ,newarea );
+
           if(height[left]<height[right]){
             left++;
           }
