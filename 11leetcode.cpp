@@ -4,6 +4,7 @@ public:
         int left = 0 ; 
         int right = height.size() - 1;
         int l , b ;
+
         int area = 0 ;
         int newarea= 0;
         while(left < right){
