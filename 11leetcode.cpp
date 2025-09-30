@@ -9,6 +9,7 @@ public:
         while(left < right){
           int b = right - left ; 
           int l = min(height[left], height[right]);
+
            newarea = l* b;
           area = max(area ,newarea );
 
