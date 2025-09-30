@@ -23,6 +23,7 @@ public:
             right--;
           }
         }
+
         return area;
     }
 };
