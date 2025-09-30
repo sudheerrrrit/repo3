@@ -3,6 +3,7 @@ public:
     int maxArea(vector<int>& height) {
         int left = 0 ; 
         int right = height.size() - 1;
+
         int l , b ;
 
         int area = 0 ;
