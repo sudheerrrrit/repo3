@@ -13,7 +13,7 @@ public:
 */
 class Solution {
   public:
-    // Function to return maximum path sum from any node in a tree.
+   
     int fun(Node *root, int &ans){
         if(!root)
           return 0;
