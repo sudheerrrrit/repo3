@@ -40,4 +40,3 @@ class Solution {
     }
 };
 
-//GFG POTD solution for 11 October
