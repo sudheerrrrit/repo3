@@ -204,7 +204,7 @@ COMMIT;
 START TRANSACTION;
 USE `shopping-cart`;
 INSERT INTO `shopping-cart`.`user` (`email`, `name`, `mobile`, `address`, `pincode`, `password`) VALUES ('yadavsudheer20072005@gmail.com', 'Sudheer Yadav', 78******98, 'Behara Kerakat, Jaunpur, Uttar Pradesh - India', 222181, 'Creater');
-INSERT INTO `shopping-cart`.`user` (`email`, `name`, `mobile`, `address`, `pincode`, `password`) VALUES ('yadavsudheer20072005@gmail.com', 'Sudheer Yadav', 78******98, 'Behara Kerakat, Jaunpur, Uttar Pradesh - India', 222181, 'Creater');
+INSERT INTO `shopping-cart`.`user` (`email`, `name`, `mobile`, `address`, `pincode`, `password`) VALUES ('yaduvansisudheer20072005@gmail.com', 'Jayshankar Yadav', 73******92, 'Behara chaure Kerakat, Jaunpur, Uttar Pradesh - India', 222181, 'CoCreater');
 
 COMMIT;
 
